@@ -13,7 +13,7 @@ class AmazonTransaction
     end
    def apply_discount
      @total = total - ((@discount.to_f/100) * total)
-     puts "Updated total #{@total}"
+     puts "After the discount, the total comes to $#{@total}."
    end
    end 
 
