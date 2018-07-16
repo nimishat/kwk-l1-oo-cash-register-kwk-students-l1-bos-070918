@@ -1,5 +1,5 @@
 class AmazonTransaction
-  attr_accessor :total, :items, :discount, :title, :price
+  attr_accessor :total, :items, :discount
   
   def initialize(discount = 20)
     @total = 0
