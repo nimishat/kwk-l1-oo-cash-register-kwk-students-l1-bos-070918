@@ -3,7 +3,7 @@ def AmazonTransaction
   
   def initialize 
     @total = total
-  
+  end
   
   
   
