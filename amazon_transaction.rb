@@ -1,8 +1,9 @@
 def AmazonTransaction
   attr_accessor :total
   
-  def initialize 
+  def initialize
     @total = 0
+    
   end
   
   
