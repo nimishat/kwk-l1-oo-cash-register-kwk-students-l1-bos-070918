@@ -10,9 +10,10 @@ class AmazonTransaction
       price = quantity * price
       @total+= price
       items << title
-     
     end
-   
+   def apply_discount
+     @total = total/discount
+   end
     
   end
 
