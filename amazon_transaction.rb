@@ -7,7 +7,5 @@ def AmazonTransaction
    
     
   end
-  
-  
-  
+
 end
