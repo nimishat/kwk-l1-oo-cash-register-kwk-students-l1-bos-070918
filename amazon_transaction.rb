@@ -1,4 +1,4 @@
-def AmazonTransaction
+class AmazonTransaction
   attr_accessor :total, :items, :discount
   
   def initialize(discount = 20)
