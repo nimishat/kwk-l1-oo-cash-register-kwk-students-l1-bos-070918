@@ -16,6 +16,5 @@ class AmazonTransaction
      @total = total/discount
    end
     
-  end
 
 end
