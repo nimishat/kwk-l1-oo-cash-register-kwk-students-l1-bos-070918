@@ -1,10 +1,10 @@
 class AmazonTransaction
   attr_accessor :total, :items, :discount
   
-  def initialize(discount = 0)
+  def initialize(discount = 20)
     @total = 0
     @items = []
-    @discount = 20
+    @discount = discount
     
     def add_item(title, price, quantity = 1)
       price = quantity * price
@@ -12,7 +12,7 @@ class AmazonTransaction
       items << title
     end
    def apply_discount
-     @total = ((@discount/100) * total) + total
+     @total = total - ((@discount.to_f/100) * total)
    end
    end 
 
